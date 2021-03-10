@@ -1,0 +1,45 @@
+/* MAIN */
+
+.MAIN {
+    background-color: #8395a7;
+}
+
+.Selected h1 {
+    text-align: center;
+}
+
+.Pizzas {
+    display: flex;
+    overflow-x: auto;
+}
+
+.Pizzas div {
+    padding: 5px;
+    width: 75%;
+    flex-shrink: 0;
+}
+
+.Pizzas div img {
+    width: 100%;
+    border-radius: 5rem 5rem;
+}
+
+.image {
+    height: 10rem
+}
+
+.Line {
+    height: 1rem;
+}
+
+.btn_Buy {
+    padding: 0.5rem 0.5rem;
+    background-color: rgba(0, 136, 159, 1);
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+}
