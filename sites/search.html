@@ -20,56 +20,33 @@
         </ul>
         <button>Shopping bag</button>
     </header>
-    <div class="SearchInput">
+    <form id="SearchInput">
         <h2>Name</h2>
         <input type="text" name="SearchInputName" id="SearchInputName" />
-        <h3>Max price: 15 kr</h3>
-        <input type="range" name="SearchInputMaxPrice" id="SearchInputMaxPrice" min="10" max="100" />
+        <h3 id="sliderPriceName">Max price: 15 kr</h3>
+        <input type="range" name="SearchInputMaxPrice" id="SearchInputMaxPrice" min="10" max="100" oninput="MoneySliderChange()" />
         <h3>Ingridients</h3>
         <div class="Ingridients">
-            <div class="Ingridient">
+            <div class="Ingridient" id="Ingridient1">
                 <h4>Pineapple</h4>
                 <img src="https://previews.123rf.com/images/marcofood/marcofood1803/marcofood180300058/98917931-pineapple-slice-isolated-pineapple-rings-on-white-.jpg" alt="Pineapple" />
-                <input type="checkbox" />
+                <input type="checkbox" value="Test" />
             </div>
-            <div class="Ingridient">
+            <div class="Ingridient" id="Ingridient2">
                 <h4>Kebab</h4>
                 <img src="https://www.vawhitley.co.uk/pub/media/catalog/product/cache/image/500x529/e9c3970ab036de70892d86c6d221abfe/f/r/fr35.jpg" alt="Kebab" />
                 <input type="checkbox" />
             </div>
-            <div class="Ingridient">
-                <h4>Mushroom</h4>
-                <img src="https://previews.123rf.com/images/waldenstroem/waldenstroem1802/waldenstroem180200030/95572078-fresh-mushroom-slices-as-a-food-background-texture.jpg" alt="Mushroom" />
-                <input type="checkbox" />
-            </div>
-            <div class="Ingridient">
-                <h4>Mushroom</h4>
-                <img src="https://previews.123rf.com/images/waldenstroem/waldenstroem1802/waldenstroem180200030/95572078-fresh-mushroom-slices-as-a-food-background-texture.jpg" alt="Mushroom" />
-                <input type="checkbox" />
-            </div>
-            <div class="Ingridient">
-                <h4>Mushroom</h4>
-                <img src="https://previews.123rf.com/images/waldenstroem/waldenstroem1802/waldenstroem180200030/95572078-fresh-mushroom-slices-as-a-food-background-texture.jpg" alt="Mushroom" />
-                <input type="checkbox" />
-            </div>
-            <div class="Ingridient">
-                <h4>Mushroom</h4>
-                <img src="https://previews.123rf.com/images/waldenstroem/waldenstroem1802/waldenstroem180200030/95572078-fresh-mushroom-slices-as-a-food-background-texture.jpg" alt="Mushroom" />
-                <input type="checkbox" />
-            </div>
-            <div class="Ingridient">
-                <h4>Mushroom</h4>
-                <img src="https://previews.123rf.com/images/waldenstroem/waldenstroem1802/waldenstroem180200030/95572078-fresh-mushroom-slices-as-a-food-background-texture.jpg" alt="Mushroom" />
-                <input type="checkbox" />
-            </div>
-            <div class="Ingridient">
+            <div class="Ingridient" id="Ingridient3">
                 <h4>Mushroom</h4>
                 <img src="https://previews.123rf.com/images/waldenstroem/waldenstroem1802/waldenstroem180200030/95572078-fresh-mushroom-slices-as-a-food-background-texture.jpg" alt="Mushroom" />
                 <input type="checkbox" />
             </div>
         </div>
         <button>Search</button>
-    </div>
+    </form>
+    <script src="../javascript/APICalls.js"></script>
+    <script src="../javascript/website/searchPage.js"></script>
 </body>
 
 </html>

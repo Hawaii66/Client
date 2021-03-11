@@ -1,7 +1,8 @@
-.SearchInput {
+#SearchInput {
     text-align: center;
     margin: 1rem;
     border-style: solid;
+    background-color: #8395a7;
 }
 
 .Ingridients {
@@ -44,7 +45,7 @@
     margin-right: 25%;
 }
 
-.SearchInput button {
+#SearchInput button {
     padding: 1rem 1rem;
     background-color: rgba(0, 136, 159, 1);
     border: none;
@@ -56,6 +57,6 @@
     margin-bottom: 1em;
 }
 
-.SearchInput button:hover {
+#SearchInput button:hover {
     background-color: rgba(0, 136, 159, 0.5);
 }
