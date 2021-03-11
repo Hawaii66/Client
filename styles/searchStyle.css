@@ -1,0 +1,61 @@
+.SearchInput {
+    text-align: center;
+    margin: 1rem;
+    border-style: solid;
+}
+
+.Ingridients {
+    display: flex;
+    overflow-x: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: auto;
+    padding-bottom: 1em;
+}
+
+.Ingridients .Ingridient {
+    width: 15%;
+    flex-shrink: 0;
+    border-style: groove;
+    margin-right: 1rem;
+    padding-bottom: 0em;
+}
+
+.Ingridients .Ingridient h4 {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.Ingridients .Ingridient img {
+    width: 65%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    border-radius: 5rem 5rem;
+    height: 65%;
+}
+
+.Ingridients .Ingridient input {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.SearchInput button {
+    padding: 1rem 1rem;
+    background-color: rgba(0, 136, 159, 1);
+    border: none;
+    border-radius: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.SearchInput button:hover {
+    background-color: rgba(0, 136, 159, 0.5);
+}
