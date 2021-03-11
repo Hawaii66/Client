@@ -39,6 +39,27 @@ header {
     color: #0088a9
 }
 
+.Menu li a:visited {
+    text-decoration: none;
+    color: #0088a9
+}
+
+.Menu li a:hover {
+    text-decoration: none;
+    color: #0088a9
+}
+
+.Menu li a:focus {
+    text-decoration: none;
+    color: #0088a9
+}
+
+.Menu li a:hover,
+a:active {
+    text-decoration: none;
+    color: #0088a9
+}
+
 header button {
     padding: 1rem 1rem;
     background-color: rgba(0, 136, 159, 1);

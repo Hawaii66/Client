@@ -43,3 +43,11 @@
     margin-right: 40%;
     width: 20%;
 }
+
+@media screen and (min-width: 1000px) {
+    .Pizzas div {
+        padding: 5px;
+        width: 50%;
+        flex-shrink: 0;
+    }
+}
